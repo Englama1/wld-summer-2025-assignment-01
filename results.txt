@@ -1,0 +1,78 @@
+U.S. Unemployment Data Analysis – Summary of Findings
+
+-----------------------------------------------------
+DATA LOADED SUCCESSFULLY
+-----------------------------------------------------
+Shape: (928, 2)
+Data types:
+- observation_date: datetime64[ns]
+- UNRATE: float64
+
+-----------------------------------------------------
+KEY STATISTICS
+-----------------------------------------------------
+Overall average unemployment rate: 5.68%
+Minimum unemployment rate: 2.5% (May–June 1953)
+Maximum unemployment rate: 14.8% (April 2020)
+
+-----------------------------------------------------
+UNEMPLOYMENT BY DECADE
+-----------------------------------------------------
+Decade | Mean (%) | Min (%) | Max (%) | Std Dev | Count
+--------------------------------------------------------
+1940s  | 4.90     | 3.4     | 7.9     | 1.38    | 24
+1950s  | 4.51     | 2.5     | 7.5     | 1.29    | 120
+1960s  | 4.78     | 3.4     | 7.1     | 1.07    | 120
+1970s  | 6.22     | 3.9     | 9.0     | 1.16    | 120
+1980s  | 7.27     | 5.0     | 10.8    | 1.48    | 120
+1990s  | 5.76     | 4.0     | 7.8     | 1.05    | 120  ← Most Stable Decade
+2000s  | 5.54     | 3.8     | 10.0    | 1.45    | 120
+2010s  | 6.22     | 3.5     | 9.9     | 2.06    | 120
+2020s  | 4.90     | 3.4     | 14.8    | 2.28    | 64
+
+Highest average annual unemployment rate: 9.71% (1982)
+
+-----------------------------------------------------
+2008 FINANCIAL CRISIS (Jul 2007 – Jun 2010)
+-----------------------------------------------------
+Peak Unemployment: 10.0% in October 2009
+Average Unemployment: 7.44%
+
+-----------------------------------------------------
+COVID-19 PANDEMIC (Feb 2020 – Apr 2023)
+-----------------------------------------------------
+Peak Unemployment: 14.8% in April 2020
+Average Unemployment: 5.53%
+
+-----------------------------------------------------
+MOST STABLE DECADE 
+-----------------------------------------------------
+The most stable unemployment rates (lowest standard deviation): is in 1990 with stander deviation 1.05
+
+-----------------------------------------------------
+TREND OVER THE LAST 10 YEARS
+-----------------------------------------------------
+From 2015 to 2019: Unemployment ranged from 3.5% to 5.1%
+April 2020: Sudden spike to 14.8% due to COVID-19
+2021–2025: Gradual recovery, hovering around 4.0–4.2%
+
+-----------------------------------------------------
+FIGURES
+-----------------------------------------------------
+Figure 2: "U.S. Unemployment Rate Over Time"
+- Displays monthly unemployment rates from 1948 to 2025
+- Highlights cyclical trends and peaks in 1982, 2009, and 2020
+- COVID-19 spike (April 2020) is the highest recorded at 14.8%
+
+Figure 3: "Average U.S. Unemployment Rate by Decade"
+- Bar chart comparing average unemployment by decade
+- 1980s had the highest average (7.27%)
+- 1990s were the most stable decade (lowest standard deviation)
+
+-----------------------------------------------------
+BUSINESS INTERPRETATION
+-----------------------------------------------------
+- Crises such as the 2008 GFC and COVID-19 lead to sharp but temporary labor shocks.
+- Decades with low variance (e.g., 1990s) signal economic stability and healthier job markets.
+- The COVID-19 spike was more severe but shorter-lived than the 2008 crisis.
+- Monitoring long-term trends helps anticipate business cycles, optimize hiring, and manage risk.
